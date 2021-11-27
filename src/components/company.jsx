@@ -4,9 +4,9 @@ const Company = () => {
     return (
         <ul>
             <List name="Samsung"/>
-            <List name="HTC"/>
+            <List type="circle" name="HTC"/>
             <List name="Micromax"/>
-            <List name="Aplle"/>
+            <List type="disc" name="Aplle"/>
         </ul>
     );
 }

@@ -3,7 +3,7 @@ import React from 'react';
 const List = (props) => {
     return (
         <>
-            <li>{props.name}</li>
+            <li type={props.type?props.type:"square"}>{props.name}</li>
         </>
     );
 }
